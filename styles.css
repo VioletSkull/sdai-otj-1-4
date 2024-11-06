@@ -1,23 +1,24 @@
-/* Reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global body styling */
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #d4b894;
     color: #241102;
 }
 
-/* Title styling */
+
 .title {
     width: 800px;
     margin: 20px auto;
     text-align: center;
     background-color: #816540;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-general {
@@ -107,7 +108,7 @@ section {
 
 section p {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 2;
     color: #50463b; 
     text-align: center;
 }
@@ -126,7 +127,6 @@ section li {
 }
 
 section li span:first-child {
-    font-weight: bold;
     color: #241102;
 }
 
